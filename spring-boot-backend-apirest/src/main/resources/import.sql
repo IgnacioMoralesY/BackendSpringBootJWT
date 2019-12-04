@@ -5,7 +5,6 @@ INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Aldana', 'Mart
 INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Matias', 'Moreno', 'mati.moreno@appignaciomorales.com', '2018-01-03');
 INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Lando', 'Vargas', 'lando.vargas@appignaciomorales.com', '2018-01-04');
 
-
 /* Creamos algunos usuarios con sus roles */
 INSERT INTO `usuarios` (username, password, enabled, nombre, apellido, email) VALUES ('root','$2a$10$ne5tQPBbCytBkGEJ7G.SyOvIegN5ksSeiquIvSRFGETq9c3AidSmG', 1, 'Ignacio', 'Morales','root@appignaciomorales.com');
 INSERT INTO `usuarios` (username, password, enabled, nombre, apellido, email) VALUES ('admin','$2a$10$ne5tQPBbCytBkGEJ7G.SyOvIegN5ksSeiquIvSRFGETq9c3AidSmG', 1, 'admin', 'admin','admin@appignaciomorales.com');
